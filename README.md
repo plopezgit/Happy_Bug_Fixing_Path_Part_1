@@ -4,8 +4,10 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 
 ## Checklist
 
-```bash
 - [ ] Understand the problem
+
+```bash
+no code yet
 ```
 
 ## Contributing
