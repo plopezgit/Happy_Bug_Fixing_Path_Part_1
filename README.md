@@ -7,7 +7,7 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 #### Understand the problem
 
 - [ ] Be here Now. Understand the problem.
-- [ ] Try and reproduce the bug on local development environment, or on a test environment if the bug is requiring specific state that’s not easy to replicate.
+- [ ] Try and reproduce the bug on local development environment, or on a test environment if the bug is requiring specific state that’s not easy to replicate. The first step is to find the steps to replicate the issue in a stable way.
 - [ ] See the problem, understand what it should be doing, now know what I’m aiming for.
 
 
