@@ -1,6 +1,6 @@
 # Happy Fixing Bug Path Part 1
 
-HFBP is a simple checklist anthology to support bug fixing learning path
+HFBP starts a simple checklist anthology from articles and lectures to support our bug fixing learning path
 
 ## Checklist
 
@@ -21,7 +21,7 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 
 - [ ] Dig into the code.Depending on the solution, and depending on how well you know that codebase, this will vary in how much time and effort this will take.
 
-> You might see a bug and immediately know where to start looking. Or you may not have a clue. Or you may know it’s not going to be a single place that contains the problem, but rather a combination of things that are working together that needs to be fixed. Obviously, each solution and each bug is different, and it’s hard to prescribe an approach that will fit all, but there are some general principles that might help. [REF](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
+> You might see a bug and immediately know where to start looking. Or you may not have a clue. Or you may know it’s not going to be a single place that contains the problem, but rather a combination of things that are working together that needs to be fixed. Obviously, each solution and each bug is different, and it’s hard to prescribe an approach that will fit all, but there are some general principles that might help. [Ref: Jaime Burns](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
 
 - [ ] Use debugging.
 - [ ] Make notes. Note: the different cases you’re testing with, the areas of code you’re suspicious of, or that you’re happy are working correctly
@@ -36,7 +36,7 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 
 - [ ] Be here now. Be like a surgeon — be as precise as possible, and make as few changes as I can.
 
->[REF](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
+>[Ref: Jaime Burn](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
 
 - [ ] Keep focus as close to the original bug as possible, and not include other fixes or improvements at the same time.
 - [ ] Document other issues and raise them as new items to be reviewed.
@@ -45,7 +45,7 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 - [ ] Make sure the bug itself is fixed, using the reproduction steps you initially used when investigating the bug.
 - [ ] Try different manual test variations — try and break what you’ve done.
 
-> It may be that you find different issues at the same time, in which case raise them as new issues with your product or testing teams — it may be that these related issues have already been raised somewhere else, or may be of a lesser priority, or they may be things that need to be fixed alongside your fix. Just check with your team how you want to go about it, but I would always encourage separate bugs to be documented as such, so you’ve got a full audit trail of the problems that are being fixed, even if you’re fixing them at the same time. [REF](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
+> It may be that you find different issues at the same time, in which case raise them as new issues with your product or testing teams — it may be that these related issues have already been raised somewhere else, or may be of a lesser priority, or they may be things that need to be fixed alongside your fix. Just check with your team how you want to go about it, but I would always encourage separate bugs to be documented as such, so you’ve got a full audit trail of the problems that are being fixed, even if you’re fixing them at the same time. [Ref: Jaime Burn](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
 
 #### Consider the impact
 
@@ -60,7 +60,7 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 - [ ] Make sure you’ve not left in any debugging code, or extra comments
 
 > If you can go through all your changes, and justify each one in relation to the bug you’re fixing, then you should be good to go.
-[REF](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
+[Ref: Jaime Burn](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
 
 - [ ] Re-test changes if you do end up making little adjustemnts during this review step.
 
@@ -73,7 +73,7 @@ HFBP is a simple checklist anthology to support bug fixing learning path
 - [ ] Go to the bug ticket/report itself, and provide an update on findings and fixes commited.
 
 > Documenting things like what was causing the bug in the first place is really helpful, especially if you can identify which commit the bug was introduced in, because that will help the rest of the team know how long this has been an issue for, and also maybe highlight a potential improvement to your development process to avoid similar bugs like this being introduced in the future.
-[REF](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
+[Ref: Jaime Burn](https://jamie-burns.medium.com/a-short-guide-to-fixing-bugs-in-software-764fc31bb0e5)
 
 #### Monitoring
 
